@@ -1,0 +1,7 @@
+.preview-card {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 375px;
+    margin: 80px auto;
+    background-color: #fff;
+} 
