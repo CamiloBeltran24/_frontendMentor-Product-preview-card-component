@@ -12,6 +12,7 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
         body {
           background: hsl(30, 38%, 92%);
@@ -24,7 +25,12 @@
           font-weight: 500;
         }
         #root {
-          padding: 0 13px;
+          /* padding: 80px 13px 0; */
+          width: 100vw;
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .attribution {
@@ -33,11 +39,14 @@
           font-size: 14px; 
           color: hsl(228, 12%, 48%);
         }
+
+        
         .attribution a {
           font-weight: bold;
           color: currentColor;
           text-decoration: none;
           position: relative;
+          font-size: 3.1vw;
         }
 
         .attribution a::after {
@@ -56,6 +65,13 @@
 
         .attribution a:hover::after {
           transform: scaleX(1);
+        }
+
+        @media screen and (min-width: 992px){
+          .attribution a{
+            font-size: 14px;
+            
+          }
         }
     </style>
   </head>

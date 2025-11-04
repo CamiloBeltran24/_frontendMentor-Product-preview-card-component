@@ -54,3 +54,9 @@
     margin-bottom: 24px;
     color: hsl(212, 21%, 14%);
 }
+
+@media screen and (min-width: 992px) {
+    .product-info {
+        width: 50%;
+    }
+}

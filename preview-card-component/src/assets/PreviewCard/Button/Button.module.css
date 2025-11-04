@@ -34,3 +34,8 @@
     transform: translateY(-50%);
 }
 
+@media screen and (min-width: 992px) {
+    .button {
+        padding: 17.5px 62.5px 17.5px 88.5px;
+    }
+}

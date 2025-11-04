@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './ProductInfo.module.css';
 import { Button } from '../Button/Button';
 
