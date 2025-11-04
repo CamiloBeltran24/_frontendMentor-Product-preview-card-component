@@ -12,6 +12,8 @@
     margin-top: 24px;
     transition: all 0.3s ease-in-out;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .button:hover {

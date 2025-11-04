@@ -16,7 +16,7 @@ export const ProductInfo = () => {
             <span className={styles.current}>$149.99</span>
             <span className={styles.oldPrice}>$169.99</span>
         </div>
-        <Button label='Add to Cart' link='https://github.com/CamiloBeltran24/_frontendMentor-Product-preview-card-component'/>
+        <Button label='Add to Cart'/>
     </div>
   )
 }
