@@ -8,7 +8,7 @@ interface ProductImageProps {
 export const ProductImage = ({ url, altText } : ProductImageProps) => {
   return (
     <>
-        <div className={styles['poduct-image']}>
+        <div className={styles['product-image']}>
             <figure>
                 <img src={url} alt={altText} loading="lazy"/>
             </figure>

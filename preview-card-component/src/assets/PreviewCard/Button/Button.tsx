@@ -9,6 +9,7 @@ export const Button = ({ label } : Button) => {
     <>
         <button  
           className={styles.button}
+          type="button"
           >
 
           <span className={styles.button__label}>{label}</span>
